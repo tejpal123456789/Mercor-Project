@@ -1,0 +1,10 @@
+setup.py
+Backend/__init__.py
+Backend/main.py
+Backend/preprocess.py
+Fetch_Files/__init__.py
+Fetch_Files/fetch_files.py
+GitHub_Automated_Analysis.egg-info/PKG-INFO
+GitHub_Automated_Analysis.egg-info/SOURCES.txt
+GitHub_Automated_Analysis.egg-info/dependency_links.txt
+GitHub_Automated_Analysis.egg-info/top_level.txt
