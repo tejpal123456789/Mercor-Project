@@ -11,15 +11,15 @@ import os
 from dotenv import dotenv_values
 import os
 import openai
+import streamlit as st
+# # Load variables from the .env file
+# env_variables = dotenv_values(".env")
 
-# Load variables from the .env file
-env_variables = dotenv_values(".env")
-
-# Access the OpenAI API key
-secret_key = env_variables.get("OPENAI_SECRET_KEY")
+# # Access the OpenAI API key
+# secret_key = env_variables.get("OPENAI_SECRET_KEY")
 
 # Set the OpenAI API key
-openai.api_key = secret_key
+openai.api_key = st.secrets['OPENAI_SECRET_KEY']
 
 def analyze_file(file):
     """
