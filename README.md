@@ -6,6 +6,8 @@ This project aims to provide automated analysis through GitHub. It leverages the
 
 ## Steps to Run the Project on Your System:
 
+Clone the Respository
+
 Step 1: Create a virtual environment using conda:
 `conda create -n <Name> -y`
 
