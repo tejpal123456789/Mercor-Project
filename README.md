@@ -1,4 +1,4 @@
 # Mercor-project
 
-<img src="demo.jpg" alt="Demo Image" width="500px">
+<img src="demo.png" alt="Demo Image" width="500px">
 
