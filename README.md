@@ -1,3 +1,4 @@
 # Mercor-project
 
-![Demo Image](demo.jpg)
+<img src="demo.jpg" alt="Demo Image" width="500px">
+
