@@ -41,7 +41,7 @@ if submit_button and github_link:
         st.write('---')
 
     st.title("Repository Details:")
-    for i in range(1):
+    for i in range(5):
         repo_name = df_sorted.iloc[i]['repo_name']
         reason = reason_of_the_complexity.iloc[i]
         st.write(f"Repo Name: **{repo_name}**")
